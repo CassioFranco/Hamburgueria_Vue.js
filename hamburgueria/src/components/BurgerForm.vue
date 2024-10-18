@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <form id="burger-form">
+            <form id="burger-form" @submit="createBurger">
                 <div class="input-container">
                     <label for="name">Nome do cliente:</label>
                     <input type="text" id="name" name="name" v-model="name" placeholder="Digite o seu nome...">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="input-container">
                     <label for="carne">Escolha a Carne:</label>
-                    <select id="carne" name="carne" v-model="pao">
+                    <select id="carne" name="carne" v-model="carne">
                         <option value="">Selecione a carne</option>
                         <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">
                             {{ carne.tipo }}
@@ -54,7 +54,6 @@ export default {
             pao: null,
             carne: null,
             opcionais: [],
-            status: "solicitado",
             msg: null
         }
     },
@@ -66,13 +65,22 @@ export default {
             this.paes = data.paes;
             this.carnes = data.carnes;
             this.opcionaisdata = data.opcionais;
-
+        },
+        async createBurger(e) {
+            e.preventDefault();
+            const data = {
+                name: this.name,
+                pao: this.pao,
+                carne: this.carne,
+                opcionais: Array.from(this.opcionais),
+                status: "Solicitado"
+            }
+            console.log(data);
         }
     },
     mounted() {
         this.getIngredientes();
     }
-
 }
 </script>
 

@@ -1,83 +1,179 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano Branco"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "3 Queijos"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
       }
     ],
-      "burgers":[]
-      
-
-  } 
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "cbad",
+      "name": "Cássio",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "88be",
+      "name": "Cássio",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "856d",
+      "name": "Cássio",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "d5d6",
+      "name": "Cássio",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "eb4c",
+      "name": "Cássio",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "0f85",
+      "name": "joao",
+      "pao": "3 Queijos",
+      "carne": "Veggie burger",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "4c1c",
+      "name": "marya",
+      "pao": "3 Queijos",
+      "carne": "Picanha",
+      "opcionais": [
+        "Cheddar",
+        "Salame"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "58b2",
+      "name": "pedro",
+      "pao": "Parmesão e Orégano",
+      "carne": "Picanha",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "12f6",
+      "name": "juca",
+      "pao": "3 Queijos",
+      "carne": "Picanha",
+      "opcionais": [
+        "Salame",
+        "Bacon",
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}

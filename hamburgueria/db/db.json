@@ -79,67 +79,6 @@
   ],
   "burgers": [
     {
-      "id": "cbad",
-      "name": "Cássio",
-      "pao": "3 Queijos",
-      "carne": "Maminha",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "88be",
-      "name": "Cássio",
-      "pao": "3 Queijos",
-      "carne": "Maminha",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "856d",
-      "name": "Cássio",
-      "pao": "3 Queijos",
-      "carne": "Maminha",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "d5d6",
-      "name": "Cássio",
-      "pao": "3 Queijos",
-      "carne": "Maminha",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "eb4c",
-      "name": "Cássio",
-      "pao": "3 Queijos",
-      "carne": "Maminha",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "0f85",
-      "name": "joao",
-      "pao": "3 Queijos",
-      "carne": "Veggie burger",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitado"
-    },
-    {
       "id": "4c1c",
       "name": "marya",
       "pao": "3 Queijos",
@@ -148,7 +87,7 @@
         "Cheddar",
         "Salame"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     },
     {
       "id": "58b2",
@@ -158,22 +97,30 @@
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     },
     {
-      "id": "12f6",
-      "name": "juca",
-      "pao": "3 Queijos",
-      "carne": "Picanha",
+      "id": "3f21",
+      "name": "Paulo",
+      "pao": "Integral",
+      "carne": "Alcatra",
       "opcionais": [
-        "Salame",
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "418c",
+      "name": "kleber",
+      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "opcionais": [
         "Bacon",
         "Cebola roxa",
-        "Cheddar",
-        "Tomate",
-        "Pepino"
+        "Cheddar"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     }
   ]
 }
